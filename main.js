@@ -1,12 +1,12 @@
 import PubSub from "./pubsub";
 
-const userJoinAlert = new PubSub();
+const alert = new PubSub();
 
-const unsubscribe = userJoinAlert.subscribe((user) => {
+const unsubscribe = alert.subscribe((user) => {
   console.log(`User '${user}' joined.`);
 });
 
-userJoinAlert.publish("Luke");
-userJoinAlert.publish("Leia");
+alert.publish("Luke");
+alert.publish("Leia");
 
 unsubscribe();
