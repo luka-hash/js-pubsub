@@ -1,3 +1,5 @@
+// Copyright © 2025 Luka Ivanović; MIT licence
+
 import PubSub from "./pubsub";
 
 const alert = new PubSub();

@@ -1,5 +1,7 @@
 # pubsub
 
+A simple pubsub implementation in javascript.
+
 ## Installation
 
 Copy `pubsub.js` file to your project directory or the content of the said file somewhere in your project.
