@@ -1,3 +1,5 @@
+// Copyright © 2025 Luka Ivanović; MIT licence
+
 export default class PubSub {
   constructor() {
     this.subscribers = new Set();
